@@ -55,7 +55,7 @@ public class FoodResource {
     @GET
     @Path("search/{name}")
     public Food getByName(@PathParam("name") String name) {
-        return Food.find("name", name).firstResult();
+        return Food.find("surname", name).firstResult();
     }
 
     @GET
