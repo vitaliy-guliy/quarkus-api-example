@@ -3,13 +3,6 @@ metadata:
   generateName: quarkus-api-example
 attributes:
   controller.devfile.io/storage-type: ephemeral
-starterProjects:
-  - name: quarkus-api-example
-    git:
-      checkoutFrom:
-        revision: main
-      remotes:
-        origin: https://github.com/che-incubator/quarkus-api-example.git
 components:
   - name: tools
     container:
